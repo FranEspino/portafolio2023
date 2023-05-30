@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/assets/Itemsnavbar.js", "pages/index.jsx", "src/components/Toggle.jsx", "src/components/Navbar.jsx", "src/components/Banner.jsx", "src/components/Container.tsx", "pages/blog.jsx", "src/components/BottomTab.jsx"],
+  "exclude": ["node_modules"]
+}

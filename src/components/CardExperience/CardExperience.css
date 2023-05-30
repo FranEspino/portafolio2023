@@ -1,0 +1,29 @@
+.container__card_experience {
+    background: rgba(255, 255, 255, 0.212);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.title__card_experience {
+    width: 250px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+
+.text__card_experience {
+    width: 250px;
+    margin-top: 0.5em;
+    font-size: 15px;
+    margin-bottom: 1em;
+    font-family: "Montserrat", sans-serif;
+}

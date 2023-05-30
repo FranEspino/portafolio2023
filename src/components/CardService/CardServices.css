@@ -1,0 +1,70 @@
+.container_card {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_container {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.308);
+    border-radius: 25px;
+    display: flex;
+    padding: 0.8em;
+    cursor: pointer;
+    margin-top: 0.8em;
+    transition: all 0.5s ease-in-out;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.9px);
+    -webkit-backdrop-filter: blur(7.9px);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.card_container:hover {
+    background: #57575725;
+}
+
+.card_container_icon {
+    background: #57575738;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.container_card_text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+    padding: 0.3em;
+}
+
+.TitleCard {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+
+.TextCard {
+    font-size: 14px;
+    margin-top: 0.5em;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 600px) {
+    .TitleCard {
+        font-size: 17px;
+    }
+    .TextCard {
+        font-size: 13px;
+    }
+    .card_container {
+        width: auto;
+    }
+}

@@ -1,0 +1,64 @@
+.Banner {
+    margin: 0 auto;
+    margin-top: 6em;
+    width: 99vw;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background: var(--backgroundCard);*/
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.InfoBanner {
+    width: 640px;
+    height: auto;
+    background: var(--colorWhite);
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    margin-left: 1.5em;
+    border-radius: 25px;
+}
+
+.InfoBanner h2 {
+    font-size: 1.5em;
+    font-family: "Open Sans", sans-serif;
+}
+
+.InfoTextBanner {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 19px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.Typical {
+    height: 30px;
+    margin-bottom: 0.5em;
+    color: var(--primaryColor);
+    ;
+}
+
+.AnimeDev {
+    width: 100%;
+}
+
+.ContainerAnimeDev {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .InfoBanner {
+        margin-left: 0em;
+    }
+    .InfoBanner h2 {
+        font-size: 1.3em;
+    }
+}

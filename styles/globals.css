@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: var(--backgroundBody);
+    max-width: 580px;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+body::-webkit-scrollbar-thumb {
+    height: 5px;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: #3f51b56b;
+    background: rgba(11, 2, 95, 0.774);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* From https://css.glass */
+    background: rgba(0, 4, 221, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+li,
+a,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+:root {
+    --primaryColor: #3F51B5;
+    --colorWhite: #FFFFFf;
+    --backgroundBody: #F9F9FC;
+    --textNavbar: #5a5b63;
+}
+
+@media (prefers-color-scheme: dark) {}
