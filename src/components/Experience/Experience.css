@@ -12,9 +12,10 @@
 }
 
 .container_title_experience {
-    font-size: 25px;
+    font-size: 38px;
     margin-top: 3em;
     text-align: center;
+    color: var(--textColor);
     font-family: "Open Sans", sans-serif;
 }
 
@@ -29,7 +30,7 @@
 .imgExperience {
     width: 30em;
     height: 30em;
-    margin-top: -8em;
+    margin-top: -5em;
     margin-left: 2em;
 }
 

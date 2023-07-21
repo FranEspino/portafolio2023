@@ -9,7 +9,7 @@ const CardPost = ({content}) => {
             <h1 className="text_title_post">{content.title  } </h1>
             <p className="InfoTextBanner">{content.description }</p>
             <Link href={`/${content.slug}`} >
-            <Button variant="outlined" color="primary" style={{ borderRadius: 10, fontSize: 12, fontWeight: 'bold', marginTop: '1em' }}>
+            <Button variant="outlined" color="primary" style={{ backgroundColor:"#5046E5 ", color: '#fff',borderRadius: 10, fontSize: 12, fontWeight: 'bold', marginTop: '1em' , borderColor:'#fff', borderWidth: 1}}>
                 Leer Post
             </Button>
             </Link>

@@ -1,9 +1,9 @@
 import React from 'react'
-import BloggerAnimate from '../../components/Animations/BloggerAnimate'
+
 const Bloghead = () => {
     return (
         <div className="containerBlog">
-                  <h1>Nuevas publicaciones</h1>
+            <img  src="https://res.cloudinary.com/dokwcwo9t/image/upload/v1689877783/logo_noogzd.png" alt="bloghead" />
         </div>
     )
 }

@@ -2,17 +2,12 @@ import React from 'react'
 import * as FaIcons from "react-icons/fa";
 export const Itemsnavbar = [
     {
-        title: "Yo",
+        title: "Home",
         path: "/",
         icon: <FaIcons.FaUserAlt />,
         cName: "ItemTab"
     },
-    {
-        title: "Trabajos",
-        path: "/works",
-        icon:<FaIcons.FaBriefcase />,
-        cName: "ItemTab"
-    },
+  
     {
         title: "Proyectos",
         path: "/projects",

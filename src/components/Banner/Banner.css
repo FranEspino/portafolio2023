@@ -6,7 +6,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    /* background: var(--backgroundCard);*/
     align-items: center;
     flex-wrap: wrap;
     overflow: hidden;
@@ -15,7 +14,7 @@
 .InfoBanner {
     width: 640px;
     height: auto;
-    background: var(--colorWhite);
+    background: var(--backgrounOnDark);
     word-wrap: break-word;
     display: flex;
     flex-direction: column;
@@ -29,6 +28,7 @@
 .InfoBanner h2 {
     font-size: 1.5em;
     font-family: "Open Sans", sans-serif;
+    color: var(--textColor);
 }
 
 .InfoTextBanner {
@@ -36,13 +36,15 @@
     margin-bottom: 1em;
     font-size: 19px;
     font-family: "Montserrat", sans-serif;
+    color: var(--textColor);
+
 }
 
 .Typical {
     height: 30px;
     margin-bottom: 0.5em;
-    color: var(--primaryColor);
-    ;
+    color: var(--textColor);
+    
 }
 
 .AnimeDev {

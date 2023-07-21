@@ -7,18 +7,21 @@ import '../src/components/Experience/Experience.css';
 import '../src/components/CardExperience/CardExperience.css';
 import '../src/components/CardPost/CardPost.css';
 import '../src/components/Bloghead/Bloghead.css';
-
-
 import type { AppProps } from 'next/app'
 import Container from '../src/components/Container/Container';
 import React from 'react';
+import {AppState} from '../context/AppState'
 
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-      <Container className="isDarkMode">
+    <AppState>
+
+
+      <Container>
        <Component {...pageProps}  />
       </Container>
+      </AppState>
   )
 }
 export default MyApp

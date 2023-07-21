@@ -5,31 +5,31 @@ import CardExperience from '../CardExperience/CardExperience'
 const Experience = () => {
     return (
         <>
-            <h1 className="container_title_experience">Mis Habilidades 💡</h1>
+            <h1 className="container_title_experience">Cursos de desarrollo móvil 2023 </h1>
             <div className="containerExperience">
                 <div className="layout_cards">
                     <CardExperience
-                        title="Servicios de Google"
+                        title="Curso Jetpack Compose"
                         description="Cuento con alta experiencia con el Sdk de Google para consumir servicios como Google Maps, Places API, Firebase, etc."
-                        icon={<FcGoogle size={60} />}
+                        icon="jetpack"
                         path="/liderazgo"
                     />
                         <CardExperience
-                        title="Circuitos y electrónica"
+                        title="Curso de Swift y SwiftUI "
                         description="Conocimiento en circuitos y proyectos de electrónica, utilizando componentes como Arduino o Rasberry Pi."
-                        icon={<FcElectronics size={60} />}
+                        icon="swiftui"
                         path="/circuitos"
                     />
                       <CardExperience
-                        title="Servidores de Linux"
+                        title="Curso de Kotlin y Android 13 "
                         description="Experiencia con distintas distribuciones linux así mismo trabajé configurando servidores linux muy potentes."
-                        icon={<FcLinux size={60} />}
+                        icon="android"
                         path="/linux"
                     />
                     <CardExperience
-                        title="Inteligencia Artificial"
+                        title="Curso de Patrones de Diseño"
                         description="Es este campo tengo conocimientos sólidos en visión computacional y  redes neuronales."
-                        icon={<FcMindMap size={60} />}
+                        icon="desginpatters"
                         path="/ia"
                     />
                 </div>

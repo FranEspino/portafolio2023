@@ -13,7 +13,6 @@ const Banner = () => {
         <h2 className="Typical">
           <Typical
             loop={Infinity}
-            color={"#3F51B5"}
             wrapper="p"
             steps={
               [
@@ -34,7 +33,8 @@ const Banner = () => {
         <div>
           {" "}
           <Link href="/Projects">
-            <Button variant="outlined" color="primary">
+            <Button variant='outlined'
+             style={{backgroundColor: '#5046E5', color:'#fff'}}>
               Proyectos
             </Button>
           </Link>

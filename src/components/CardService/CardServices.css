@@ -9,7 +9,7 @@
 
 .card_container {
     width: 400px;
-    background: rgba(255, 255, 255, 0.308);
+    background: var(--backgrounOnDark);
     border-radius: 25px;
     display: flex;
     padding: 0.8em;
@@ -28,7 +28,7 @@
 }
 
 .card_container_icon {
-    background: #57575738;
+    background: var(--backgroundInvert);
     padding-left: 0.5em;
     padding-right: 0.5em;
     padding-top: 0.5em;
@@ -39,6 +39,7 @@
 
 .container_card_text {
     display: flex;
+    color: var( --textColor);
     flex-direction: column;
     margin-left: 2em;
     padding: 0.3em;
