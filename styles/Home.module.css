@@ -176,7 +176,15 @@
     display: flex;
     align-items: center;
 }
+.ContextTerms {
+    padding-left: 20em;
+    padding-right: 20em;
+    margin-top: 8em;
+    color: var(--textColor);
+    font-size: 1.2em;
+    font-family: "Open Sans", sans-serif;
 
+}
 .Subtitle {
     margin-top: 1em;
     color: var(--textColor);
@@ -185,6 +193,15 @@
 }
 
 @media (max-width: 768px) {
+    .ContextTerms {
+        padding-left:2em;
+        padding-right: 2em;
+        margin-top: 8em;
+        color: var(--textColor);
+        font-size: 0.8em;
+        font-family: "Open Sans", sans-serif;
+    
+    }
     .elementsPosthead {
         width: 95vw;
         height: 30vh;
@@ -260,6 +277,8 @@
     color: var(--logo);
     -webkit-tap-highlight-color: transparent;
 }
+
+
 
 .NavbarNavigation {
     list-style: none;
